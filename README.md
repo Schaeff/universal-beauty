@@ -2,7 +2,11 @@
 
 Small quiz on beauty standards.
 
+# Install
+
+* run ````npm install```
+
 # Usage
 
-* run ```meteor```
-* goto ```localhost:3000```
+* run ```gulp```
+* goto ```localhost:8889```

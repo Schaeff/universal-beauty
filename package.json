@@ -4,10 +4,7 @@
   "description": "React application boilerplate",
   "author": "Christian Alfoni",
   "license": "ISC",
-  "scripts": {
-      
-    },
-
+  "scripts": {},
   "devDependencies": {
     "browserify": "^10.2.1",
     "csv-streamify": "^3.0.3",
@@ -31,7 +28,8 @@
   },
   "dependencies": {
     "react": "^0.14.0",
-    "react-dom": "^0.14.0",
-    "react-addons-test-utils": "^0.14.0"
+    "react-addons-css-transition-group": "^0.14.3",
+    "react-addons-test-utils": "^0.14.0",
+    "react-dom": "^0.14.0"
   }
 }

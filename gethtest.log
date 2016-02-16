@@ -1,0 +1,94 @@
+I0117 18:02:01.430845   59019 flags.go:425] WARNING: No etherbase set and no accounts found as default
+I0117 18:02:01.431666   59019 database.go:71] Alloted 16MB cache to /Users/Obit/Library/Ethereum/testnet/chaindata
+I0117 18:02:01.451380   59019 database.go:71] Alloted 16MB cache to /Users/Obit/Library/Ethereum/testnet/dapp
+I0117 18:02:01.455228   59019 backend.go:331] Protocol Versions: [63 62 61], Network Id: 8545
+I0117 18:02:01.455316   59019 backend.go:379] Blockchain DB Version: 3
+I0117 18:02:02.040227   59019 blockchain.go:135] WARNING: Wrote default ethereum genesis block
+I0117 18:02:02.040333   59019 blockchain.go:189] Last header: #0 [d4e56740…] TD=17179869184
+I0117 18:02:02.040359   59019 blockchain.go:190] Last block: #0 [d4e56740…] TD=17179869184
+I0117 18:02:02.040371   59019 blockchain.go:191] Fast block: #0 [d4e56740…] TD=17179869184
+I0117 18:02:02.053579   59019 cmd.go:124] Starting Geth/v1.3.1/darwin/go1.5.1
+I0117 18:02:02.055501   59019 server.go:311] Starting Server
+I0117 18:02:03.552115   59019 udp.go:204] Listening, enode://db873175db3833c294a2807abcad93b403e3bdfe7ea190c33072d6e851f6f92f7db72c77e87b49622f2cc5e83b631128dd103405cbf68b9466df86e647b23858@[::]:30303
+I0117 18:02:03.552327   59019 backend.go:598] Server started
+I0117 18:02:03.553108   59019 backend.go:656] Automatic pregeneration of ethash DAG ON (ethash dir: /Users/Obit/.ethash)
+I0117 18:02:03.553183   59019 server.go:552] Listening on [::]:30303
+I0117 18:02:03.555554   59019 backend.go:663] checking DAG (ethash dir: /Users/Obit/.ethash)
+I0117 18:02:03.556076   59019 ipc.go:112] IPC service started (/Users/Obit/Library/Ethereum/testnet/geth.ipc)
+I0117 18:02:03.557518   59019 cpu_mining.go:35] Cannot start mining without etherbase address: etherbase address must be explicitly specified
+Fatal: Cannot start mining without etherbase address: etherbase address must be explicitly specified
+I0117 18:03:42.744118   59213 flags.go:425] WARNING: No etherbase set and no accounts found as default
+I0117 18:03:42.749012   59213 database.go:71] Alloted 16MB cache to /Users/Obit/Library/Ethereum/testnet/chaindata
+I0117 18:03:42.944064   59213 database.go:71] Alloted 16MB cache to /Users/Obit/Library/Ethereum/testnet/dapp
+I0117 18:03:42.950437   59213 backend.go:331] Protocol Versions: [63 62 61], Network Id: 8545
+I0117 18:03:42.950526   59213 backend.go:379] Blockchain DB Version: 3
+I0117 18:03:42.953430   59213 blockchain.go:189] Last header: #0 [d4e56740…] TD=17179869184
+I0117 18:03:42.953463   59213 blockchain.go:190] Last block: #0 [d4e56740…] TD=17179869184
+I0117 18:03:42.953474   59213 blockchain.go:191] Fast block: #0 [d4e56740…] TD=17179869184
+I0117 18:03:42.973565   59213 cmd.go:124] Starting Geth/v1.3.1/darwin/go1.5.1
+I0117 18:03:42.975033   59213 server.go:311] Starting Server
+I0117 18:03:44.867699   59213 udp.go:204] Listening, enode://db873175db3833c294a2807abcad93b403e3bdfe7ea190c33072d6e851f6f92f7db72c77e87b49622f2cc5e83b631128dd103405cbf68b9466df86e647b23858@[::]:30303
+I0117 18:03:44.867823   59213 backend.go:598] Server started
+I0117 18:03:44.867820   59213 server.go:552] Listening on [::]:30303
+I0117 18:03:44.869816   59213 ipc.go:112] IPC service started (/Users/Obit/Library/Ethereum/testnet/geth.ipc)
+I0117 18:03:51.140425   59213 backend.go:656] Automatic pregeneration of ethash DAG ON (ethash dir: /Users/Obit/.ethash)
+I0117 18:03:51.140451   59213 cpu_mining.go:35] Cannot start mining without etherbase address: etherbase address must be explicitly specified
+I0117 18:03:51.140692   59213 backend.go:663] checking DAG (ethash dir: /Users/Obit/.ethash)
+I0117 18:04:36.841807   59213 blockchain.go:618] Chain manager stopped
+I0117 18:04:36.841987   59213 handler.go:178] Stopping ethereum protocol handler...
+I0117 18:04:36.842208   59213 handler.go:188] Ethereum protocol handler stopped
+I0117 18:04:36.842445   59213 transaction_pool.go:150] Transaction pool stopped
+I0117 18:04:36.842514   59213 backend.go:702] Automatic pregeneration of ethash DAG OFF (ethash dir: /Users/Obit/.ethash)
+I0117 18:04:36.842975   59213 database.go:158] closed db: /Users/Obit/Library/Ethereum/testnet/chaindata
+I0117 18:04:36.843342   59213 database.go:158] closed db: /Users/Obit/Library/Ethereum/testnet/dapp
+I0117 18:06:54.279991   59225 flags.go:425] WARNING: No etherbase set and no accounts found as default
+I0117 18:06:54.282793   59225 database.go:71] Alloted 16MB cache to /Users/Obit/Library/Ethereum/testnet/chaindata
+I0117 18:06:54.301475   59225 database.go:71] Alloted 16MB cache to /Users/Obit/Library/Ethereum/testnet/dapp
+I0117 18:06:54.311749   59225 backend.go:331] Protocol Versions: [63 62 61], Network Id: 8545
+I0117 18:06:54.313613   59225 backend.go:379] Blockchain DB Version: 3
+I0117 18:06:54.316985   59225 blockchain.go:189] Last header: #0 [d4e56740…] TD=17179869184
+I0117 18:06:54.317038   59225 blockchain.go:190] Last block: #0 [d4e56740…] TD=17179869184
+I0117 18:06:54.317054   59225 blockchain.go:191] Fast block: #0 [d4e56740…] TD=17179869184
+I0117 18:06:54.329902   59225 cmd.go:124] Starting Geth/v1.3.1/darwin/go1.5.1
+I0117 18:06:54.333899   59225 server.go:311] Starting Server
+I0117 18:06:56.417730   59225 udp.go:204] Listening, enode://db873175db3833c294a2807abcad93b403e3bdfe7ea190c33072d6e851f6f92f7db72c77e87b49622f2cc5e83b631128dd103405cbf68b9466df86e647b23858@[::]:30303
+I0117 18:06:56.417946   59225 backend.go:598] Server started
+I0117 18:06:56.417946   59225 server.go:552] Listening on [::]:30303
+I0117 18:06:56.422936   59225 ipc.go:112] IPC service started (/Users/Obit/Library/Ethereum/testnet/geth.ipc)
+I0117 18:12:41.902662   59225 blockchain.go:618] Chain manager stopped
+I0117 18:12:41.903031   59225 handler.go:178] Stopping ethereum protocol handler...
+I0117 18:12:41.903256   59225 handler.go:188] Ethereum protocol handler stopped
+I0117 18:12:41.903507   59225 transaction_pool.go:150] Transaction pool stopped
+I0117 18:12:41.903544   59225 backend.go:702] Automatic pregeneration of ethash DAG OFF (ethash dir: /Users/Obit/.ethash)
+I0117 18:12:41.903975   59225 database.go:158] closed db: /Users/Obit/Library/Ethereum/testnet/chaindata
+I0117 18:12:41.904246   59225 database.go:158] closed db: /Users/Obit/Library/Ethereum/testnet/dapp
+I0117 18:12:44.819852   59227 database.go:71] Alloted 16MB cache to /Users/Obit/Library/Ethereum/testnet/chaindata
+I0117 18:12:44.836823   59227 database.go:71] Alloted 16MB cache to /Users/Obit/Library/Ethereum/testnet/dapp
+I0117 18:12:44.846898   59227 backend.go:331] Protocol Versions: [63 62 61], Network Id: 8545
+I0117 18:12:44.848537   59227 backend.go:379] Blockchain DB Version: 3
+I0117 18:12:44.849312   59227 blockchain.go:189] Last header: #0 [d4e56740…] TD=17179869184
+I0117 18:12:44.849336   59227 blockchain.go:190] Last block: #0 [d4e56740…] TD=17179869184
+I0117 18:12:44.849346   59227 blockchain.go:191] Fast block: #0 [d4e56740…] TD=17179869184
+I0117 18:12:44.861124   59227 cmd.go:124] Starting Geth/v1.3.1/darwin/go1.5.1
+I0117 18:12:44.861265   59227 server.go:311] Starting Server
+I0117 18:12:46.938467   59227 udp.go:204] Listening, enode://db873175db3833c294a2807abcad93b403e3bdfe7ea190c33072d6e851f6f92f7db72c77e87b49622f2cc5e83b631128dd103405cbf68b9466df86e647b23858@[::]:30303
+I0117 18:12:46.938576   59227 backend.go:598] Server started
+I0117 18:12:46.938698   59227 backend.go:656] Automatic pregeneration of ethash DAG ON (ethash dir: /Users/Obit/.ethash)
+I0117 18:12:46.938686   59227 server.go:552] Listening on [::]:30303
+I0117 18:12:46.938776   59227 ipc.go:112] IPC service started (/Users/Obit/Library/Ethereum/testnet/geth.ipc)
+I0117 18:12:46.938812   59227 backend.go:663] checking DAG (ethash dir: /Users/Obit/.ethash)
+I0117 18:12:46.940748   59227 miner.go:119] Starting mining operation (CPU=1 TOT=3)
+I0117 18:12:46.948377   59227 worker.go:557] commit new work on block 1 with 0 txs & 0 uncles. Took 7.57621ms
+I0117 18:12:46.951579   59227 ethash.go:220] Generating DAG for epoch 0 (size 1073739904) (0000000000000000000000000000000000000000000000000000000000000000)
+I0117 18:12:48.009301   59227 ethash.go:237] Done generating DAG for epoch 0, it took 1.058346436s
+I0117 19:37:31.594817   59227 miner.go:119] Starting mining operation (CPU=1 TOT=4)
+I0117 19:37:31.597736   59227 worker.go:557] commit new work on block 1 with 0 txs & 0 uncles. Took 2.43136ms
+I0117 19:39:54.495076   59227 miner.go:119] Starting mining operation (CPU=1 TOT=3)
+I0117 19:39:54.499187   59227 worker.go:557] commit new work on block 1 with 0 txs & 0 uncles. Took 4.038555ms
+I0117 19:44:20.705151   59227 blockchain.go:618] Chain manager stopped
+I0117 19:44:20.706521   59227 handler.go:178] Stopping ethereum protocol handler...
+I0117 19:44:20.706553   59227 handler.go:188] Ethereum protocol handler stopped
+I0117 19:44:20.706569   59227 transaction_pool.go:150] Transaction pool stopped
+I0117 19:44:20.709104   59227 backend.go:702] Automatic pregeneration of ethash DAG OFF (ethash dir: /Users/Obit/.ethash)
+I0117 19:44:20.709557   59227 database.go:158] closed db: /Users/Obit/Library/Ethereum/testnet/chaindata
+I0117 19:44:20.709874   59227 database.go:158] closed db: /Users/Obit/Library/Ethereum/testnet/dapp

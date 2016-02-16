@@ -3,12 +3,18 @@ var React = require('react');
 
 var MissComponent = React.createClass({
 
+	getInitialState: function() {
+		return({
+			selected: -1
+		})
+	},
+
 	renderButtons: function() {
 		var that = this;
 		return(
 			this.props.choices.map(function(miss, index) {
 				return(
-					<button onClick={that.onChooseCountry.bind(null, index)}>{miss.country}</button>
+					<button onClick={that.onChooseCountry.bind(null, index)} style={(index === that.state.selected) ? answerStyle : null}>{miss.country}</button>
 				)
 			})
 		)
@@ -16,21 +22,26 @@ var MissComponent = React.createClass({
 
 	onChooseCountry: function(index, event) {
 		event.preventDefault();
+		this.setState({
+			selected: index
+		})
 		this.props.choices[index].country === this.props.miss.country ? this.props.onWin() : this.props.onFail()
 	},
 
 	render: function() {
 		return (
 			<div>
-				<h1>{this.props.miss.name}</h1>
 				{this.renderButtons()}
 				<br></br>
 				<img src={this.props.miss.imgL} />
-				<button onClick={this.onChooseCountry} />
 			</div>
 		);
 	}
 	
 });
+
+var answerStyle = {
+  color: '#00FF00',
+};
 	
 module.exports = MissComponent;

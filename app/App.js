@@ -4,6 +4,8 @@ var MissComponent = require('./MissComponent.js')
 var misses = require('../dist/misses.json')
 var shuffle = require('./shuffle.js')
 
+shuffle(misses)
+
 var App = React.createClass({
 	getInitialState: function() {
 		return ({
@@ -39,7 +41,7 @@ var App = React.createClass({
 		withoutMiss.sort( function() { return 0.5 - Math.random() } );
 		console.log(this.state.index)
 		console.log(misses)
-		var choices = withoutMiss.slice(0, 2)
+		var choices = withoutMiss.slice(0, 5)
 		choices.push(misses[this.state.index])
 		console.log(choices)
 		return shuffle(choices)
