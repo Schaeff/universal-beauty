@@ -4,7 +4,7 @@ Small quiz on beauty standards.
 
 # Install
 
-* run ````npm install```
+* run ```npm install```
 
 # Usage
 
